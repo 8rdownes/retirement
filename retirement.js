@@ -1,25 +1,26 @@
 //Function declarations
+
+
 function retire(age){
-    let year ==2017; //set current year
-    let retirementAge ==65; //set current retirement age
+    let year =2017; //set current year
+    let retirementAge =65; //set current retirement age
     let diff = retirementAge - age;
 
     //write three separate conditional statements to say when you can take out money.
 
     //first if your age is older than the retirementAge
 if(age > retirementAge){
-console.log("You're ready to retire");
-}
-else if (age = retirementAge) {
-  console.log("You're on your way!");
-}
+console.log("You should have already retired");
+  }
+else if (age == retirementAge) {
+  console.log("You're ready to retire");
+  }
 
     //second if your age is equal to the retirementAge
-else (age < retirement){
+else{
   console.log("Wait a few more years.");
-}
+  }
     //third if your age is younger than the retirementAge
-
 }
 
 
@@ -36,5 +37,5 @@ function main(){
 
 
 // ctrl + shift + B
-//This will run the program.
+//This will run the pro1g1ram.
 main();
